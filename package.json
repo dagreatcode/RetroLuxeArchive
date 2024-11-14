@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client frontend/ && npm run start",
     "api": "cd server && npm run start",
-    "dash": "cd dashboard && npm run start"
+    "dash": "cd dashboard && npm run start",
+    "buildClient": "cd client && npm run build",
+    "buildAPI": "cd server && npm run build",
+    "buildDash": "cd dashboard && npm run build"
   },
   "keywords": [],
   "author": "",
