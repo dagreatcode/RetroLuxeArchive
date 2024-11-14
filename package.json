@@ -1,0 +1,15 @@
+{
+  "name": "retroluxearchive",
+  "version": "1.0.0",
+  "description": "This site has 2 apps and a API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client frontend/ && npm run start",
+    "api": "cd server && npm run start",
+    "dash": "cd dashboard && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
