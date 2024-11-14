@@ -7,7 +7,7 @@
   "client": "cd client && npm run start",
   "api": "cd server && npm run start",
   "dash": "cd dashboard && npm run start",
-  "buildClient": "set NODE_OPTIONS=--openssl-legacy-provider && cd client && npm run build",
+  "buildClient": "set NODE_OPTIONS=--openssl-legacy-provider && cd client && npm run build && npm i",
   "buildAPI": "cd server && npm install && npm run build",
   "buildDash": "cd dashboard && npm install && npm run build",
   "build": "npm install && cd dash && npm install && npm run build"
